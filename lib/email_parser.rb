@@ -12,8 +12,8 @@ class EmailAddressParser
   end
   
   def parse
-    @csv_emails.split("," && " ") = splitting
-    splitting.collect do |address|
+    @csv_emails.split("," && " ") 
+    @csv_emails.collect do |address|
       address.flatten.uniq
     end
   end
