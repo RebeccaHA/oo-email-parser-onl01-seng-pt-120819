@@ -13,7 +13,7 @@ class EmailAddressParser
   def parse
    emails = @address.split(" ") 
     emails.collect do |list|
-      list.split(",")
+      list.split(" ")
     end
     emails.uniq
   end
