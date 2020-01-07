@@ -12,9 +12,9 @@ class EmailAddressParser
   
   def parse
    emails = @address.split 
-    emails.collect do |list|
-      list.split(",")
-    end
+  #  parsed_emails = emails.collect do |list|
+    #  list.split(",")
+ #  end
     emails.uniq
   end
 end
