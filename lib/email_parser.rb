@@ -12,7 +12,8 @@ class EmailAddressParser
   end
   
   def parse
-    @csv_emails.split("," && " ")
+    @csv_emails.split("," && " ") = splitting
+    splitting.collect 
     
   end
 end
